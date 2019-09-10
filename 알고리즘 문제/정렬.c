@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void main()
 {
@@ -20,6 +20,6 @@ void main()
         array[i] = array[index];
         array[index] = temp;
     }
-    _Printf("%d", array[i]);
+	Printf("%d", array[i]);
     return 0;
 }
